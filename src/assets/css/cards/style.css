@@ -1,0 +1,38 @@
+.b[data-v-2895f6bc]{
+    fill: #4a3eb3;
+    fill-rule: evenodd;
+}
+.v-card-shortener{
+    width: 600px;
+}
+
+.v-medium-lable{
+    font-size:16px;
+    font-weight: 700;
+    margin-bottom:1rem !important;
+    display: inline-block;
+}   
+.mr-2{
+    overflow: hidden;
+    margin-right: 0.2rem !important ;
+    vertical-align: middle
+}
+.v-card-inputtext {
+    margin: 10px;
+}
+.v-card-inputtext,.v-card-inputtext>input {
+    width: 100%;
+    background:none;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.v-card-button-xl{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px !important;
+    background-color: #1f8244 !important;
+    border-color: #1f8244 !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    padding: 15px 30px !important;
+}

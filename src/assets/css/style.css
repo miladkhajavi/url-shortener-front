@@ -1,0 +1,63 @@
+body{
+    /* background-color: #002342; */
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+}   
+.v-background-img{
+    background-attachment: fixed;
+    background-color: #002342;
+    background: linear-gradient(150deg,#002342,#0bc9e3 132.49%);
+    background-size: cover;
+    bottom: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+.background-img-top{
+    position: fixed;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 400px;
+    overflow: hidden;
+}
+.background-img-bottom{
+    background-position: 100% 100%;
+    bottom: 0;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    width: 100vw;
+    vertical-align: middle;
+}
+.v-shortener{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ width: 100%;
+ /* z-index: 1; */
+}
+.v-shortener-card{
+    width: 600px;
+    background-color: #f8f9fa !important;
+    word-wrap:break-word !important;
+    border-radius: 10px !important;
+    padding: 15px;
+    overflow: hidden;
+    position: relative !important;
+    
+}
+.v-copy-icon{
+    font-size: 20px !important ;
+    cursor: pointer;
+}
+.v-copy-icon-g{
+    font-size: 20px !important ;
+    font-weight: bolder !important;
+    cursor: pointer;
+    color: green !important;
+}
